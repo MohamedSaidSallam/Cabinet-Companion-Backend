@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "group",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "expireDate": {
+      "type": "string",
+      "minLength": 1
+    },
+    "productionDate": {
+      "type": "string",
+      "minLength": 1
+    },
+    "imageUri": {
+      "type": "string",
+      "minLength": 1
+    },
+    "quantity": {
+      "type": "number",
+      "minimum": 0
+    },
+    "quantityUnit": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "name",
+    "expireDate",
+    "productionDate",
+    "quantity",
+    "quantityUnit"
+  ],
+  "additionalProperties": false
+}
