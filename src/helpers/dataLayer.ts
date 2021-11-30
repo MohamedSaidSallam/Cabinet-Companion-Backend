@@ -57,12 +57,11 @@ export async function updateItem(
       Key: { itemId: itemId, userId: userId },
       ExpressionAttributeNames: { "#name": "name" },
       UpdateExpression:
-        "set #name = :name, expireDate = :expireDate, productionDate = :productionDate, imageUri = :imageUri, quantity = :quantity, quantityUnit = :quantityUnit",
+        "set #name = :name, expireDate = :expireDate, productionDate = :productionDate, quantity = :quantity, quantityUnit = :quantityUnit",
       ExpressionAttributeValues: {
         ":name": updatedItem.name,
         ":expireDate": updatedItem.expireDate,
         ":productionDate": updatedItem.productionDate,
-        ":imageUri": updatedItem.imageUri,
         ":quantity": updatedItem.quantity,
         ":quantityUnit": updatedItem.quantityUnit,
       },
