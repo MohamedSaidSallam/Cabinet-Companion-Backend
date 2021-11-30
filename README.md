@@ -3,7 +3,7 @@
 [![GitHub Release][github_release_badge]][github_release_link]
 [![License][license-image]][license-url]
 
-A serverless backend for the Cabinet Companion. A web app for managing you kitchen cabinet. You can add items, set their expiration date and quantity and update them whenever you use them.
+A serverless backend for the Cabinet Companion. A web app for managing your kitchen cabinet. You can add items, set their expiration date and quantity, and update them whenever you use them.
 
 [Serverless Frontend Repo](https://github.com/TheDigitalPhoenixX/Cabinet-Companion)
 
