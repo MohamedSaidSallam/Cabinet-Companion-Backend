@@ -10,7 +10,7 @@ import { JwtPayload } from "../../auth/JwtPayload";
 
 const logger = createLogger("auth");
 
-const jwksUrl ="";
+const jwksUrl = "https://dev-3o4ephn6.us.auth0.com/.well-known/jwks.json";
 
 export const handler = async (
   event: CustomAuthorizerEvent
